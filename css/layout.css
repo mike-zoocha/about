@@ -1,0 +1,247 @@
+body {
+	font-family: helvetica, sans-serif;
+	font-size: 16px;
+	color: #333333;
+	line-height: 110%;
+}
+
+body .inner-body {
+	width: 80%;
+	min-width: 800px;
+	margin: 0 auto;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	line-height: 140%;
+}
+
+.oracle {
+	color: #FF0100;
+}
+#oracle{
+	border-bottom: 1px solid #FF0100;
+
+}
+
+.tesco {
+	color: #01549F;
+}
+
+.zoocha {
+	color: #000;
+}
+#zoocha {
+	border-bottom: 1px solid #000;
+}
+
+
+
+h1 {
+	font-family: 'Droid Serif', serif;
+	font-size: 40px;
+}
+	
+h2 {
+	font-size: 26px;
+	color: #666;
+}
+
+h3 {
+	font-family: 'Droid Serif', serif;
+	font-size: 26px;
+
+}
+
+h4 {
+	/*font-family: 'Droid Serif', serif;*/
+	font-size: 20px;
+	color: #666;
+}
+
+h4 span {
+	color: #999999;
+	font-size: 16px;
+}
+
+h5 {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 150%;
+	margin: 10px 0;
+}
+
+p {
+	margin: 10px 0;
+	line-height: 150%;
+}
+
+.global-nav {
+	height: 18px;
+}
+
+.global-nav ul li {
+	float: right;
+	border: 1px solid #999;
+	padding: 5px 10px;
+	margin: 0 10px;
+	border-radius: 5px 5px 0 0;
+	font-size: 12px;
+}
+
+.global-nav ul li.active {
+	border-bottom: #fff;
+}
+
+
+header {
+	border-bottom: 1px solid #999999;
+	border-top: 2px solid #999999;
+	overflow: auto;
+	margin: 10px 0 0;
+	padding: 10px 10px;
+}
+
+header h2 {
+	float:left;
+}
+
+
+header a {
+	float: right;
+	color: #666;
+	clear:right;
+}
+
+.work-experience {
+	overflow: auto;
+	border-bottom: 1px solid #dedede;
+}
+
+.work-experience ul li {
+	float: left;
+	padding:20px 40px;
+}
+
+.work-experience .first {
+	padding-left:235px;
+}
+
+.work-experience ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.container {
+	overflow: auto;
+}
+
+.dates {
+	float: left;
+	width: 30px;
+	color: #dedede;
+	margin: 10px 20px 0 175px;
+	
+}
+
+.year {
+	display: block;
+	height: 200px;
+	width: 50px;
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	font-size: 50px;
+	letter-spacing: 3px;
+}
+
+article {
+	border-bottom: 1px solid #dedede;
+	padding: 0 0 0 10px;
+	margin:  0 0 0 220px;
+}
+
+article aside {
+	float: right;
+	width: 200px;
+	font-size: 80%;
+	border: 2px solid #dedede;
+	border-radius: 5px 0 0 5px;
+	padding: 10px 0 0 10px;
+	border-right: none;
+	margin: 0 0 0 5px;
+}
+
+.half {
+	height: 100px;
+}
+
+.one {
+	height: 200px;
+}
+
+.one-half {
+	height: 300px;
+}
+
+.two {
+	height: 400px;
+}
+
+.two-half {
+	height: 500px;
+}
+
+/* about */
+.about .one {
+	height: auto;	
+	margin-top: 15px;
+}
+
+.dates .about-me {
+	display: block;
+	height: 400px;
+	width: 250px;
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	font-size: 50px;
+	letter-spacing: 3px;
+}
+
+.statement p {
+	font-family: 'Droid Serif', serif;
+	font-size: 20px;
+	color: #666;
+}
+
+.statement p span {
+	font-size: 30px;
+	line-height: 20px;
+	vertical-align: bottom;	
+}
+
+
+.about article  {
+	border: none;
+}
+
+.strengths ul {
+	list-style-type: disc;
+	margin: 0 0 0 10px;
+	  padding: 0 0 0 20px;
+}
+
+.strengths ul li {
+	margin: 10px 0;
+}
+
+footer  {
+	background-color: #333;
+	margin: 20px 0 0;
+	color: #fff;
+}
